@@ -73,3 +73,21 @@ button:hover {
 .delete-btn:hover {
     background-color: #c82333;
 }
+#taskList li.done span {
+    text-decoration: line-through;
+    color: #999;
+}
+
+#taskList li input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 14px;
+}
