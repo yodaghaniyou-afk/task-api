@@ -11,6 +11,7 @@ frontend/    Interface JS (index.html, style.css, script.js)
 ## Fonctionnalités
 - Lister les tâches (GET)
 - Ajouter une tâche (POST)
+- Marquer une tâche terminée (PATCH)
 - Supprimer une tâche (DELETE)
 - Communication front/back via fetch et JSON
 
@@ -44,6 +45,7 @@ http://localhost/task-api/frontend/index.html
 |---|---|---|
 | GET | backend/api.php | Liste toutes les tâches |
 | POST | backend/api.php | Ajoute une tâche (body JSON: titre) |
+| PATCH | backend/api.php?id=X | Marque la tâche X terminée/non-terminée (body JSON: terminee) |
 | DELETE | backend/api.php?id=X | Supprime la tâche X |
 
 ## Technologies utilisées
